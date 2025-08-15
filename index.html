@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+      integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    
+  </head>
+  <body>
+    <main id="home">
+      <header>
+        <h1 class="logo">
+          <i class="bi bi-lightning-fill"></i>
+          <span>TO THE UNSPOKEN ONES!</span>
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </main>
+
+    <div class="container">
+      <div class="searchy">
+        <input
+          type="search"
+          class="searchbox"
+          placeholder="Search for any Image"
+        />
+        <i class="bi bi-search"></i>
+      </div>
+      <button class="search-btn">Search for Image</button>
+    </div>
+
+    <div class="imageappearhere">
+      <div class="images">
+        <div class="placeholder-box">
+          <i class="bi bi-card-image"></i>
+          <p>Images will appear here once you search!</p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="styled-hr" />
+
+    <div class="contact" id="contact">
+      <form action="">
+        <h1>Contact us:</h1>
+        <h1>User Registration</h1>
+        <br />
+        <label for="fname"> First Name: </label>
+        <input type="text" id="fname" name="fname" />
+        <p class="error1 error-msg"></p>
+        <label for="lastname"> Last Name: </label>
+        <input type="text" id="lname" name="lname" />
+        <p class="error2 error-msg"></p>
+        <label for="email"> Email Address: </label>
+        <input type="text" id="email" name="email" />
+        <p class="error3 error-msg"></p>
+        <label for="DOB"> Date of Birth: </label>
+        <input type="date" id="dob" name="dob" />
+        <p class="error4 error-msg"></p>
+        <label for="country"> Country: </label>
+
+        <select id="country" name="country">
+          <option value="">--Select Country--</option>
+          <option value="Afghanistan">Afghanistan</option>
+          <option value="Albania">Albania</option>
+          <option value="Algeria">Algeria</option>
+          <option value="Andorra">Andorra</option>
+          <option value="Angola">Angola</option>
+          <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+          <option value="Argentina">Argentina</option>
+          <option value="Armenia">Armenia</option>
+          <option value="Australia">Australia</option>
+          <option value="Austria">Austria</option>
+          <option value="Azerbaijan">Azerbaijan</option>
+          <option value="Bahamas">Bahamas</option>
+          <option value="Bahrain">Bahrain</option>
+          <option value="Bangladesh">Bangladesh</option>
+          <option value="Barbados">Barbados</option>
+          <option value="Belarus">Belarus</option>
+          <option value="Belgium">Belgium</option>
+          <option value="Belize">Belize</option>
+          <option value="Benin">Benin</option>
+          <option value="Bhutan">Bhutan</option>
+          <option value="Bolivia">Bolivia</option>
+          <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+          <option value="Botswana">Botswana</option>
+          <option value="Brazil">Brazil</option>
+          <option value="Brunei">Brunei</option>
+          <option value="Bulgaria">Bulgaria</option>
+          <option value="Burkina">Burkina Faso</option>
+          <option value="Burundi">Burundi</option>
+          <option value="Cabo Verde">Cabo Verde</option>
+          <option value="Cambodia">Cambodia</option>
+          <option value="Cameroon">Cameroon</option>
+          <option value="Canada">Canada</option>
+          <option value="Central African Republic">
+            Central African Republic
+          </option>
+          <option value="Chad">Chad</option>
+          <option value="Chile">Chile</option>
+          <option value="China">China</option>
+          <option value="Colombia">Colombia</option>
+          <option value="Comoros">Comoros</option>
+          <option value="Congo (Congo-Brazzaville)">
+            Congo (Congo-Brazzaville)
+          </option>
+          <option value="Costa Rica">Costa Rica</option>
+          <option value="Croatia">Croatia</option>
+          <option value="Cuba">Cuba</option>
+          <option value="Cyprus">Cyprus</option>
+          <option value="Czech Republic">Czech Republic</option>
+          <option value="Democratic Republic of the Congo">
+            Democratic Republic of the Congo
+          </option>
+          <option value="Denmark">Denmark</option>
+          <option value="Djibouti">Djibouti</option>
+          <option value="Dominica">Dominica</option>
+          <option value="Dominican Republic">Dominican Republic</option>
+          <option value="Ecuador">Ecuador</option>
+          <option value="Egypt">Egypt</option>
+          <option value="El Salvador">El Salvador</option>
+          <option value="Equatorial Guinea">Equatorial Guinea</option>
+          <option value="Eritrea">Eritrea</option>
+          <option value="Estonia">Estonia</option>
+          <option value="Eswatini">Eswatini</option>
+          <option value="Ethiopia">Ethiopia</option>
+          <option value="Fiji">Fiji</option>
+          <option value="Finland">Finland</option>
+          <option value="France">France</option>
+          <option value="Gabon">Gabon</option>
+          <option value="Gambia">Gambia</option>
+          <option value="Georgia">Georgia</option>
+          <option value="Germany">Germany</option>
+          <option value="Ghana">Ghana</option>
+          <option value="Greece">Greece</option>
+          <option value="Grenada">Grenada</option>
+          <option value="Guatemala">Guatemala</option>
+          <option value="Guinea">Guinea</option>
+          <option value="Guinea-Bissau">Guinea-Bissau</option>
+          <option value="Guyana">Guyana</option>
+          <option value="Haiti">Haiti</option>
+          <option value="Honduras">Honduras</option>
+          <option value="Hungary">Hungary</option>
+          <option value="Iceland">Iceland</option>
+          <option value="India">India</option>
+          <option value="Indonesia">Indonesia</option>
+          <option value="Iran">Iran</option>
+          <option value="Iraq">Iraq</option>
+          <option value="Ireland">Ireland</option>
+          <option value="Israel">Israel</option>
+          <option value="Italy">Italy</option>
+          <option value="Ivory Coast">Ivory Coast</option>
+          <option value="Jamaica">Jamaica</option>
+          <option value="Japan">Japan</option>
+          <option value="Jordan">Jordan</option>
+          <option value="Kazakhstan">Kazakhstan</option>
+          <option value="Kenya">Kenya</option>
+          <option value="Kiribati">Kiribati</option>
+          <option value="Kuwait">Kuwait</option>
+          <option value="Kyrgyzstan">Kyrgyzstan</option>
+          <option value="Laos">Laos</option>
+          <option value="Latvia">Latvia</option>
+          <option value="Lebanon">Lebanon</option>
+          <option value="Lesotho">Lesotho</option>
+          <option value="Liberia">Liberia</option>
+          <option value="Libya">Libya</option>
+          <option value="Liechtenstein">Liechtenstein</option>
+          <option value="Lithuania">Lithuania</option>
+          <option value="Luxembourg">Luxembourg</option>
+          <option value="Madagascar">Madagascar</option>
+          <option value="Malawi">Malawi</option>
+          <option value="Malaysia">Malaysia</option>
+          <option value="Maldives">Maldives</option>
+          <option value="Mali">Mali</option>
+          <option value="Malta">Malta</option>
+          <option value="Marshall Islands">Marshall Islands</option>
+          <option value="Mauritania">Mauritania</option>
+          <option value="Mauritius">Mauritius</option>
+          <option value="Mexico">Mexico</option>
+          <option value="Micronesia">Micronesia</option>
+          <option value="Moldova">Moldova</option>
+          <option value="Monaco">Monaco</option>
+          <option value="Mongolia">Mongolia</option>
+          <option value="Montenegro">Montenegro</option>
+          <option value="Morocco">Morocco</option>
+          <option value="Mozambique">Mozambique</option>
+          <option value="Myanmar (Burma)">Myanmar (Burma)</option>
+          <option value="Namibia">Namibia</option>
+          <option value="Nauru">Nauru</option>
+          <option value="Nepal">Nepal</option>
+          <option value="Netherlands">Netherlands</option>
+          <option value="New Zealand">New Zealand</option>
+          <option value="Nicaragua">Nicaragua</option>
+          <option value="Niger">Niger</option>
+          <option value="Nigeria">Nigeria</option>
+          <option value="North Korea">North Korea</option>
+          <option value="North Macedonia">North Macedonia</option>
+          <option value="Norway">Norway</option>
+          <option value="Oman">Oman</option>
+          <option value="Pakistan">Pakistan</option>
+          <option value="Palau">Palau</option>
+          <option value="Palestine">Palestine</option>
+          <option value="Panama">Panama</option>
+          <option value="Papua New Guinea">Papua New Guinea</option>
+          <option value="Paraguay">Paraguay</option>
+          <option value="Peru">Peru</option>
+          <option value="Philippines">Philippines</option>
+          <option value="Poland">Poland</option>
+          <option value="Portugal">Portugal</option>
+          <option value="Qatar">Qatar</option>
+          <option value="Romania">Romania</option>
+          <option value="Russia">Russia</option>
+          <option value="Rwanda">Rwanda</option>
+          <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+          <option value="Saint Lucia">Saint Lucia</option>
+          <option value="Saint Vincent and the Grenadines">
+            Saint Vincent and the Grenadines
+          </option>
+          <option value="Samoa">Samoa</option>
+          <option value="San Marino">San Marino</option>
+          <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+          <option value="Saudi Arabia">Saudi Arabia</option>
+          <option value="Senegal">Senegal</option>
+          <option value="Serbia">Serbia</option>
+          <option value="Seychelles">Seychelles</option>
+          <option value="Sierra Leone">Sierra Leone</option>
+          <option value="Singapore">Singapore</option>
+          <option value="Slovakia">Slovakia</option>
+          <option value="Slovenia">Slovenia</option>
+          <option value="Solomon">Solomon Islands</option>
+          <option value="Somalia">Somalia</option>
+          <option value="South Africa">South Africa</option>
+          <option value="South Korea">South Korea</option>
+          <option value="South Sudan">South Sudan</option>
+          <option value="Spain">Spain</option>
+          <option value="Sri Lanka">Sri Lanka</option>
+          <option value="Sudan">Sudan</option>
+          <option value="Suriname">Suriname</option>
+          <option value="Sweden">Sweden</option>
+          <option value="Switzerland">Switzerland</option>
+          <option value="Syria">Syria</option>
+          <option value="Taiwan">Taiwan</option>
+          <option value="Tajikistan">Tajikistan</option>
+          <option value="Tanzania">Tanzania</option>
+          <option value="Thailand">Thailand</option>
+          <option value="Timor-Leste">Timor-Leste</option>
+          <option value="Togo">Togo</option>
+          <option value="Tonga">Tonga</option>
+          <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+          <option value="Tunisia">Tunisia</option>
+          <option value="Turkey">Turkey</option>
+          <option value="Turkmenistan">Turkmenistan</option>
+          <option value="Tuvalu">Tuvalu</option>
+          <option value="Uganda">Uganda</option>
+          <option value="Ukraine">Ukraine</option>
+          <option value="United Arab Emirates">United Arab Emirates</option>
+          <option value="United Kingdom">United Kingdom</option>
+          <option value="United States">United States</option>
+          <option value="Uruguay">Uruguay</option>
+          <option value="Uzbekistan">Uzbekistan</option>
+          <option value="Vanuatu">Vanuatu</option>
+          <option value="Vatican City">Vatican City</option>
+          <option value="Venezuela">Venezuela</option>
+          <option value="Vietnam">Vietnam</option>
+          <option value="Yemen">Yemen</option>
+          <option value="Zambia">Zambia</option>
+          <option value="Zimbabwe">Zimbabwe</option>
+        </select>
+        <p class="error5 error-msg"></p>
+        <label for="message"> Message: </label>
+        <input type="text" id="profile" name="profile" />
+        <p class="error6 error-msg"></p>
+        <button class="submit-btn">Submit</button> <br />
+      </form>
+
+      <div class="results" id="results" style="display: none">
+        <h1>Information Accepted</h1>
+        <p><strong>First Name:</strong><span id="outputfirstname"></span></p>
+        <p><strong>Last Name:</strong><span id="outputlastname"></span></p>
+        <p><strong>Email:</strong> <span id="outputemail"></span></p>
+        <p><strong>Date of Birth:</strong><span id="outputdob"></span></p>
+        <p><strong>Country:</strong><span id="outputcountry"></span></p>
+        <p><strong>Message:</strong><span id="outputprofile"></span></p>
+      </div>
+    </div>
+    <script>
+      let input = document.querySelector(".searchbox");
+      let images = document.querySelector(".images");
+      let accessKey = "ctShki4vVCml79PiI2FJPXQQTw3sv3bayUcbfrTAK4A";
+
+      input.addEventListener("keydown", function (e) {
+        if (e.key === "Enter") loadImg();
+      });
+
+      document.querySelector(".search-btn").addEventListener("click", loadImg);
+
+      function loadImg() {
+        let query = input.value.trim();
+        images.innerHTML = "";
+
+        if (query === "") {
+          images.innerHTML = `
+          <div class="placeholder-box">
+            <i class="bi bi-card-image"></i>
+            <h1>Images would Appear here</h1>
+          </div>
+        `;
+          return;
+        }
+
+        let url = `https://api.unsplash.com/search/photos?query=${query}&per_page=12&client_id=${accessKey}`;
+
+        fetch(url)
+          .then((res) => res.json())
+          .then((data) => {
+            if (!data.results || data.results.length === 0) {
+              images.innerHTML =
+                "<p style='color:white;'>No results found.</p>";
+              return;
+            }
+
+            function imagesGone() {
+              images.innerHTML = "";
+            }
+
+            data.results.forEach((photo) => {
+              let div = document.createElement("div");
+              div.className = "img";
+              div.style.backgroundImage = `url(${photo.urls.small})`;
+              div.addEventListener("click", () => {
+                window.open(photo.urls.full, "_blank");
+              });
+              images.appendChild(div);
+            });
+          })
+
+          .catch((err) => {
+            console.error("Error fetching images:", err);
+            images.innerHTML =
+              "<p style='color:red;'>Something went wrong. Try again later.</p>";
+          });
+      }
+
+      document.querySelector("form").addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        document
+          .querySelectorAll("p[class^='error']")
+          .forEach((el) => (el.textContent = ""));
+
+        let fName = document.querySelector("#fname").value;
+        let lName = document.querySelector("#lname").value;
+        let eMail = document.querySelector("#email").value;
+        let country = document.querySelector("#country").value;
+        let dob = document.querySelector("#dob").value;
+        let profile = document.querySelector("#profile").value;
+        let valid = true;
+
+        if (fName === "") {
+          document.querySelector(".error1").textContent =
+            "First name is required";
+          valid = false;
+        } else if (!isNaN(fName)) {
+          document.querySelector(".error1").textContent =
+            "First name must be alphabetical";
+          valid = false;
+        }
+        if (lName === "") {
+          document.querySelector(".error2").textContent =
+            "Last name is required";
+          valid = false;
+        } else if (!isNaN(lName)) {
+          document.querySelector(".error2").textContent =
+            "Last name must be alphabetical";
+          valid = false;
+        }
+
+        if (eMail === "" || !eMail.includes("@") || !eMail.includes(".")) {
+          document.querySelector(".error3").textContent =
+            "Enter a valid email address";
+          valid = false;
+        }
+
+        if (dob === "") {
+          document.querySelector(".error4").textContent =
+            "Date of birth is required";
+          valid = false;
+        }
+
+        if (country === "") {
+          document.querySelector(".error5").textContent =
+            "Please select a country";
+          valid = false;
+        }
+
+        if (profile === "") {
+          document.querySelector(".error6").textContent = "Profile is required";
+          valid = false;
+        }
+
+        if (valid) {
+          document.querySelector("form").style.display = "none";
+          document.querySelector("#results").style.display = "block";
+          document.querySelector('.results').style.color = 'black';
+          document.querySelector("#outputfirstname").textContent = " " + fName;
+          document.querySelector("#outputlastname").textContent = " " + lName;
+          document.querySelector("#outputemail").textContent = " " + eMail;
+          document.querySelector("#outputdob").textContent = " " + dob;
+          document.querySelector("#outputcountry").textContent = " " + country;
+          document.querySelector("#outputprofile").textContent = " " + profile;
+        }
+      });
+    </script>
+  </body>
+</html>
