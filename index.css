@@ -291,41 +291,31 @@ img {
   margin-left: 10px;
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 480px) {
   body {
     font-size: 14px;
   }
 
   header {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 10px;
   }
 
   .logo {
-    font-size: 24px;
-    gap: 5px;
-  }
-
-  .logo i {
-    margin-right: 5px;
-  }
-
-  span {
-    font-size: 16px;
-    letter-spacing: 1px;
+    font-size: 22px;
   }
 
   nav ul {
     flex-direction: column;
     gap: 10px;
-    padding-left: 0;
     width: 100%;
+    padding-left: 0;
   }
 
   nav ul li a {
-    font-size: 20px;
-    padding: 8px 0;
+    font-size: 16px;
+    padding: 6px 10px;
   }
 
   .container {
@@ -334,68 +324,130 @@ img {
   }
 
   .searchbox {
-    font-size: 16px;
-    padding: 12px 15px 12px 40px;
+    font-size: 14px;
+    padding: 10px 15px 10px 40px;
   }
 
-  button {
+  .search-btn {
     width: 100%;
-    font-size: 10px;
-    padding: 12px 0;
+    font-size: 24px;
+  }
+
+  form,
+  .results {
+    width: 95%;
+    padding: 20px;
+  }
+
+  input,
+  select {
+    font-size: 14px;
+  }
+
+  .placeholder-box {
+    font-size: 24px;
+    padding: 15px;
+  }
+
+  .img {
+    width: 100%;
+    height: auto;
   }
 }
 
-@media (max-width: 480px) {
+@media screen and (min-width: 481px) and (max-width: 639px) {
   body {
     font-size: 15px;
   }
 
-  header {
+  .logo {
+    font-size: 24px;
+  }
+
+  nav ul {
     flex-direction: column;
     align-items: center;
-    padding: 15px;
+  }
+
+  .search-btn {
+    font-size: 26px;
+  }
+
+  form,
+  .results {
+    width: 90%;
+    padding: 25px;
+  }
+
+  .placeholder-box {
+    font-size: 30px;
+  }
+
+  .img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 768px) {
+  body {
+    font-size: 16px;
   }
 
   .logo {
     font-size: 28px;
-    gap: 8px;
-  }
-
-  .logo i {
-    margin-right: 8px;
-  }
-
-  span {
-    font-size: 18px;
-    letter-spacing: 1.5px;
   }
 
   nav ul {
     flex-direction: row;
-    gap: 15px;
-    padding-left: 0;
-    width: 100%;
-    justify-content: center;
+    justify-content: space-between;
   }
 
-  nav ul li a {
-    font-size: 24px;
-    padding: 8px 10px;
-  }
-
-  .container {
-    height: auto;
-    padding: 15px 20px;
-  }
-
-  .searchbox {
-    font-size: 18px;
-    padding: 14px 20px 14px 45px;
-  }
-
-  button {
-    width: 100%;
+  .search-btn {
     font-size: 30px;
-    padding: 14px 0;
+  }
+
+  form,
+  .results {
+    width: 90%;
+  }
+
+  .placeholder-box {
+    font-size: 32px;
+  }
+
+  .img {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    font-size: 17px;
+  }
+
+  .logo {
+    font-size: 30px;
+  }
+
+  nav ul {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .search-btn {
+    font-size: 32px;
+  }
+
+  form,
+  .results {
+    width: 85%;
+  }
+
+  .placeholder-box {
+    font-size: 34px;
+  }
+
+  .img {
+    width: 40%;
   }
 }
