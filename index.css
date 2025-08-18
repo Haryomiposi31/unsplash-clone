@@ -94,7 +94,7 @@ nav ul li a:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(moving-stars.gif);
+  background-image: url(./images/moving-stars.gif);
 }
 
 .container::before {
